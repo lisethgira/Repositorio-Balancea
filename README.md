@@ -123,7 +123,7 @@ para correr la landing page vamos a ejecutar los siguientes comandos en una nuev
 
 puedes agrupar las consolas de esa manera tendrás visbilidad de que esta sucediendo en cada entorno
 
-![banner](https://raw.githubusercontent.com/lisethgira/Repositorio-Balancea/main/Documentaci%C3%B3n/project-images/transacciones.png)
+![banner](https://raw.githubusercontent.com/lisethgira/Repositorio-Balancea/main/Documentaci%C3%B3n/project-images/consolas.png)
 
 ## Resources
 
