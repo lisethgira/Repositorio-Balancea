@@ -4,7 +4,6 @@
 
 **Balancea** es una aplicación integral diseñada para facilitar la administración financiera personal a través de un panel de control interactivo. Esta herramienta es ideal para individuos que buscan optimizar su control sobre las finanzas, permitiéndoles monitorizar detalladamente sus ingresos y gastos.
 
-
 <div align="center">
 <img style="width: 80px; border-radius:100px" src="https://raw.githubusercontent.com/lisethgira/Repositorio-Balancea/main/Balancea-App/client/public/logo512x512.png"/>
 
@@ -28,7 +27,70 @@
   - [License](#license)
   - [Report Bug](#report-bug)
 
-  ### Installation
+
+  ### PreRequisitos
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Debes tener instalado.
+
+Node:  14.17.0
+React.js: 17.0.1
+  
+
+### Instalación de PreRequisitos
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Para hacer la instalación de NodeJS dirijase a la fuente oficial
+
+https://nodejs.org/es/
+
+para hacer la instalacón de expressjs dirijase a la fuente oficial
+
+https://expressjs.com/
+
+
+Para hacer la instalación de ReactJS vamos a seguir estos sencillos pasos:
+
+Paso 1. Instalar NodeJS en su ultima versión si aun no lo tienes instalado, para eso entraremos a su web oficial y descargaremos el instalador más actualizado https://nodejs.org/es/
+
+Paso 2. Actualizar NPM, el gestor de paquetes de node, para bajarnos las dependencias más actuales:
+
+npm install -g npm@latest
+
+Paso 3. Borrar la cache de NPM:
+
+npm cache clean --force
+
+Paso 4. Instalar Create React App, que es un interprete de consola(CLI) que nos va a permitir instalar React facilmente e incluirá webpack para la compilación y minificación del proyecto, un live reload, una estructura básica para los proyectos de ReactJS, etc, veamos como instalar este paquete:
+
+npm install -g create-react-app
+
+Ahora ya esta instalado «create react app» y se puede generar un nuevo proyecto de React.js
+
+Para generar un nuevo proyecto de React.js y finalmente instalarlo, entraremos al directorio donde queramos generar el proyecto de reactjs y ejecutamos este comando:
+
+npx create-react-app NombreDeMiProyecto
+
+Ahora entraremos al directorio de nuestro proyecto y lanzaremos el servidor local de pruebas para React:
+
+cd NombreDeMiProyecto
+npm start
+
+se puede comprobar la versión de React que tiene el repositorio dentro del fichero package.json.
+
+Ahora se tiene disponible la webapp de React 16 en http://localhost:3000/ y se verá el proyecto corriendo, con la página de bienvenida por defecto.
+
+Con esto ya conoces como instalar React desde cero y como generar un proyecto base.
+
+o dirijase a la fuente oficial de React js
+
+https://reactjs.org/
+
+ para hacer la instalción con redux dirijase a la fuente oficial
+
+ https://redux.js.org/introduction/getting-started
+
+  ### Instalación y ejecución de proyecto
 
 1. Clonar el repositorio a tu maquina local
 
@@ -70,9 +132,9 @@
 
 6. Abrimos una nueva terminal y ejecutamos nuevamente cd para movernos al directorio del cliente
 
-```bash
-  cd Repositorio-Balancea/Balancea-App/client
-```
+    ```bash
+    cd Repositorio-Balancea/Balancea-App/client
+    ```
 
 7. Instalar dependencias
 
@@ -87,12 +149,12 @@
    ```bash
    yarn install --force
    ```
+
 8. corre el cliente
 
    ```bash
    npm run start
    ```
-
 
 para correr la landing page vamos a ejecutar los siguientes comandos en una nueva consola
 
@@ -115,6 +177,8 @@ para correr la landing page vamos a ejecutar los siguientes comandos en una nuev
    ```bash
    yarn install --force
 
+   ```
+
 3. corre el landingPage
 
    ```bash
@@ -125,7 +189,7 @@ puedes agrupar las consolas de esa manera tendrás visbilidad de que esta sucedi
 
 ![banner](https://raw.githubusercontent.com/lisethgira/Repositorio-Balancea/main/Documentaci%C3%B3n/project-images/consolas.png)
 
-## Resources
+## Funcionamiento
 
 ## Landing Page 🌐
 
@@ -428,6 +492,53 @@ El proyecto **Balancea** utiliza una estructura de carpetas organizada para faci
 └── 📁uploads
 └── 1654273782512-user9.png
 ```
+## Usuarios registrados en la app
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+todos estos usuarios podran ser carpoolers y usuarios, dentro la app podras cambiar el rol como mejor te parezca, aca un listado de los usuarios registrados hasta el momento aunque tambien podras registrar uno nuevo desde la pagina de login.
+
+Usuario 1:
+
+email: lisethgiraldo628@gmail.com
+clave: 12345678
+
+## Tecnologias Usadas
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Este repositorio cuenta con un servidor y un cliente los cuales fueron construidos con las siguientes tecnologías:
+
+![estructura](https://github.com/lisethgira/ImagenesCarpool/blob/main/WhatsApp%20Image%202021-06-30%20at%208.18.32%20AM.jpeg)
+
+FROTNEND
+
+-React.js: V.17.0.1
+-Redux: V.4.1.0
+
+BACKEND
+![pruebas-Postman](https://github.com/lisethgira/ImagenesCarpool/blob/main/pruebasConPostman.png)
+-Node: 14.17.0 con la libreria de ExpressJS.
+
+
+BASE DE DATOS
+
+-MongoDB Atlas: El núcleo de nuestra plataforma de datos de aplicaciones es un servicio de base de datos multicloud diseñado para la resiliencia, escalabilidad y los niveles más altos de privacidad y seguridad de los datos. Con MongoDB Atlas, su base de datos es un cimiento de confianza que le permite trabajar con datos de la manera que desee, fácilmente y sin esfuerzo.
+
+datos para la conexión a la base de datos 
+
+host:  '7t3DGUvwp7hL601r@balancea.wh4ftkq.mongodb.net'
+user:  'lisethgiraldo628'
+database:  'billetera?retryWrites=true&w=majority&appName=Balancea'
+
+## Versionamiento
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+la aplicación fue construida y probada en el sistema operativo windows 10 sin ninguna dificultad, mediante el editor de código de Visual Studio Code.
+
+puedes usar navegadores con soporte de javaScript como:
+
+opera.
+Chrome.
+mozilla.
+edge.
+epiphany.
+chromium.
 
 ## Licencia 🗒
 
@@ -448,7 +559,3 @@ Este proyecto está bajo la licencia [MIT](https://github.com/lisethgira/Reposit
 ![banner](https://raw.githubusercontent.com/lisethgira/Repositorio-Balancea/main/Documentaci%C3%B3n/project-images/perfil.png)
 
 ![banner](https://raw.githubusercontent.com/lisethgira/Repositorio-Balancea/main/Documentaci%C3%B3n/project-images/transacciones.png)
-
-```
-
-```
